@@ -61,7 +61,7 @@ define(function(require, exports, module){
             location.href ="/html/system/main.html";
         }else if(res.code == 1002){
             //接口返回未成功信息
-            login.tip(res.msg);
+            alert(res.msg);
         }else{
             tool.msg("登录失败",2);
         }
